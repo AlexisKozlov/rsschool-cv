@@ -1,0 +1,23 @@
+
+# Alexis Kozlov
+### Contacts: 
+*alex2000kozlov@gmail.com*
+
+*alexiskozlov (telegram)*
+
+*Alexis Kozlov (@AlexisKozlov) (Discord)*
+### About myself
+**The goal is to create a future for yourself through development in the field of programming. I like to learn new things, strive for unconquered heights, to achieve good results. Resistant to stress, sociable, responsible.**
+### Skills
+*At the moment I know the base of HTML and CSS, but this is only the beginning.*
+### Code example
+```
+function multiply (a, b) {
+return a * b
+}
+```
+### Education and courses:
+**I did a bit of training at the HTML-Academy.**
+
+### Language
+*English level - A1*

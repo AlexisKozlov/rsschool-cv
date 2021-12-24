@@ -1,0 +1,19 @@
+.name{
+    color: blueviolet;
+}
+.contlist{
+    font-size: 16px;
+}
+
+.paragraph{
+    font-size: 24px;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(219, 198, 4);
+ 
+}
+.aleximg{
+    float: left;
+    margin-right: 25px;
+}
