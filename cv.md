@@ -1,4 +1,4 @@
-![My Photo](https://github.com/AlexisKozlov/rsschool-cv/blob/gh-pages/Photo.png)
+
 # Alexis Kozlov
 ### Contacts: 
 *alex2000kozlov@gmail.com*
