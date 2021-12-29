@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
+    font-weight: 600;
     margin: 0;
     padding: 0;
     display: flex;
@@ -72,6 +72,8 @@ color: #4d2323;
     text-transform: uppercase;
     color: #385b8b;
     font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid rgb(8, 235, 204);
+    width: 100px;
   }
 
   .header{
@@ -111,10 +113,18 @@ color: #4d2323;
         justify-content: center;
         Gap: 2rem;
         padding: 20px 0px;
+        margin-top: 50px;
 
     }
 
+    .section-title-name:hover {
+    color:aqua;
+    transition: color 0.9s;
+    }
 
+code {
+    font-size: 18px;
+}
    .section-title-name {
     font-size: 50px;
     font-weight: 400;
@@ -137,3 +147,4 @@ transition: color 0.5s;
 .img-css:hover {
     color:#ffdd00;
 }
+
