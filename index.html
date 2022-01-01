@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@200&family=Roboto&display=swap" rel="stylesheet">
-    <title>Alexis Kozlov CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@200&family=Roboto&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">    
+<title>Alexis Kozlov CV</title>
 </head>
     <header class="header">
 
@@ -18,7 +18,7 @@
                   <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                   <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                   <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                   <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                 </ul>
               </nav>
@@ -28,14 +28,27 @@
     <div class="container">
 <section class="section-profile" id="profile">
     <h1 class="section-title-name">Alexis Kozlov</h1>
-    <img class="image" src="Alex.png" alt="myphoto" width="15%">
+    <img class="image" src="Alex.png" alt="myphoto" width="216" height="216">
 </section>
 <section class="section" id="contacts">
 <h2 class="section-title">Contacts</h2>
-<ul>
-    <li>Telegram</li>
-    <li>GitHub</li>
-    <li>Gmail</li>
+<ul class="contacts-link">
+    <li>
+        <a href="https://t.me/alexiskozlov">
+        <img src="./assets/image/tg-icon.png" alt="tgicon" height="30" width="30">
+    </a>
+    </li>
+    <li>
+        <a href="https://github.com/AlexisKozlov">
+            <img src="./assets/image/github-icon.png" alt="giticon" height="30" width="30">
+        </a>
+    </li>
+    <li>
+        <a class ="disc-link" href="https://discord.gg/PuAyxnR35f">
+            <img src="./assets/image/disc-icon.png" alt="giticon" height="30" width="30"> 
+            Alexis Kozlov (@AlexisKozlov)
+        </a>
+    </li>
     </ul>
 
 </section>
@@ -47,7 +60,7 @@
     <h2 class="section-title">Skills</h2>
 <ul>
     <li>HTML Basic</li>
-    <li>CSS Basic</li> 
+    <li>CSS Basic</li>  
 </ul>
 </section>
 <section class="section" id="code">
@@ -60,7 +73,14 @@
 </section>
 <section class="section" id="projects">
     <h2 class="section-title">Projects</h2>
-<p>Coming soon</p>
+    <div class="container-img">
+<a href="https://alexiskozlov.github.io/rsschool-cv/">
+<img class="image-proj" src=".//assets/image/project.png" alt="myproject" width="180" height="120">
+<div class="middle">
+    <div class="text">Перейти</div>
+</div>
+    </a>
+</div>
 </section>
 <section class="section" id="education">
     <h2 class="section-title">Education</h2>
@@ -80,7 +100,7 @@
     <div class="footer-content">
 <div class="footer-container">
     <a href="https://github.com/AlexisKozlov">
-<img src="https://pngimg.com/uploads/github/github_PNG40.png" height="30" width="30">
+<img src="./assets/image/github-icon.png" alt="giticon" height="30" width="30">
 </a>
 </div>
 <div class="footer-container">
@@ -88,7 +108,7 @@
     </div>
     <div class="footer-container">
        <a href="https://app.rs.school/">
-       <img class="img-css" src="./assets/image/rss.svg" height="30" width="30">
+       <img class="img-css" src="./assets/image/rss.svg" alt="rssicon" height="30" width="30">
     </a>
         </div>
     </div>
