@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* height: 100vh; */
 }
 
 html {
@@ -81,6 +82,7 @@ color: #4d2323;
 }
   .footer{
     background-color: #2f4f7b;
+    
 }
 .footer-container{
     min-width: 33.33%;
