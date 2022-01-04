@@ -85,7 +85,9 @@ color: #4d2323;
 
 }
 
-
+.dev-name {
+  color: #fff;
+}
 .footer-container{
     min-width: 33.33%;
     min-height: 100%;
